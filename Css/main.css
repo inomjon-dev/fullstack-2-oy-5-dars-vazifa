@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(135deg, #232526, #414345) ;
+    height: 100vh;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background: linear-gradient(135deg, #bdc3c7, #2c3e50);
+    max-width: 100%;
+    border: 1px solid white;
+    width: 400px;
+    border-radius: 60px;
+    box-shadow: 10px 10px 10px;
+}
+.title{
+    color: silver;
+}
